@@ -33,14 +33,14 @@ This is a simple Banking System implemented in Java using JDBC to interact with 
 ```
 
 ## Features
-> Register: Create a new user account.
-> Login: Log in with an existing user account.
-> Open Bank Account: Create a new bank account associated with the logged-in user.
-> Debit Money: Withdraw money from the user's bank account.
-> Credit Money: Deposit money into the user's bank account.
-> Transfer Money: Transfer money between bank accounts.
-> Check Balance: View the current balance of the user's bank account.
-> Logout: Log out from the system.
+- Register: Create a new user account.
+- Login: Log in with an existing user account.
+- Open Bank Account: Create a new bank account associated with the logged-in user.
+- Debit Money: Withdraw money from the user's bank account.
+- Credit Money: Deposit money into the user's bank account.
+- Transfer Money: Transfer money between bank accounts.
+- Check Balance: View the current balance of the user's bank account.
+- Logout: Log out from the system.
    
 Feel free to adapt the database schema according to your requirements.
 
