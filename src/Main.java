@@ -19,7 +19,7 @@ public class Main {
             Scanner scanner =new Scanner(System.in);
             User user = new User(connection, scanner);
             Accounts account = new Accounts(connection, scanner);
-            AccountManager accountManager = new AccountManage(connection, scanner);
+            AccountManager accountManager = new AccountManager(connection, scanner);
         }catch(SQLException e){
             System.out.println(e.getMessage());
         }
