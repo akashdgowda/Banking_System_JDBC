@@ -6,10 +6,22 @@ This is a simple Banking System implemented in Java using JDBC to interact with 
 - MySQL server installed and running
 - MySQL Connector/J library in the classpath
 
+## Setup
+1. Clone the repository: `git clone https://github.com/yourUsername/Banking_System_JDBC.git`
+2. Open the project in your preferred Java IDE.
+3. Make sure to have the MySQL Connector/J library in your classpath.
+4. Update the database connection details in `main.java`:
+   ```java
+   private static final String url = "jdbc:mysql://localhost:3306/banking_system";
+   private static final String username = "root";
+   private static final String password = "yourPassword";
+
 ## Database Setup
 1. Create a MySQL database named `banking_system`.
 2. Update the database connection details in `Main.java`:
-     ```sql
+
+The system assumes a MySQL database with the following table structure:
+  ```sql
    CREATE TABLE accounts (
        account_number bigint PRIMARY KEY,
        full_name varchar(255) NOT NULL,
@@ -25,12 +37,6 @@ This is a simple Banking System implemented in Java using JDBC to interact with 
    );
    ```
 
-### Update the database connection details in Main.java:     
-   ```java
-   public static final String url = "jdbc:mysql://localhost:3306/banking_system";
-   public static final String username = "root";
-   public static final String password = "MySQLPassword";
-```
 
 ## Features
 - Register: Create a new user account.
@@ -43,6 +49,7 @@ This is a simple Banking System implemented in Java using JDBC to interact with 
 - Logout: Log out from the system.
    
 Feel free to adapt the database schema according to your requirements.
+
 
 ## Acknowledgment
 This project uses the MySQL database for data storage.
